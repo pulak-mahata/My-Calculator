@@ -26,8 +26,15 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  background-color: rgb(112 39 39);
-  color: white;
+/*   background-color: rgb(112 39 39);
+  color: white; */
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 #button-c{
     padding: 13px 68px;
@@ -57,7 +64,7 @@ body{
   
 .bottom-container{
     background-color:#009688;
-    padding: 50px 0 20px; 
+    padding: 35px 0px; 
     text-align: center;
     margin-top: 30px;
     
@@ -73,7 +80,7 @@ body{
   }  
   a{
     color: #bcf436;
-    margin: 10px 20px;
+    margin: 10px 15px;
     text-decoration: none;
    font-family: Montserrat, serif;
    font-size: 2 rem;
